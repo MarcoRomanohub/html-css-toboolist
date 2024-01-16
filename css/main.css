@@ -11,6 +11,7 @@ body{
 /* header */
 header{
   height: 70px;
+  margin-bottom: 50px;
 }
 
 h1{
@@ -29,3 +30,45 @@ header img{
   margin-bottom: 10px;
 }
 /* Fine header */
+
+/* main */
+
+/* nav */
+nav{
+  max-width: 1000px;
+  height: 50px;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.menu{
+  margin-left: 50px;
+  padding-top: 12px;
+}
+  
+.blu-button{
+  background-color: rgba(69, 121, 243, 0.725);
+  color: white;
+  border: 1px solid rgba(69, 121, 243, 0.725);
+}
+
+.button-menu{
+  border-radius: 5px;
+  padding: 10px;
+  height: 30px;
+  padding-top: 7px;
+}
+
+.section-button{
+  background: none;
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+/* fine nav */
+
+/* section */
+section.task{
+  max-width: 1000px;
+  height: 800px;
+  margin: 2px auto;
+}
